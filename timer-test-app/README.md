@@ -6,9 +6,10 @@ yarn add create react-app timer-test-app
 ```
 
 **yarn을 선택한 이유**
-npx(npm)과 yarn 중 yarn을 통해 프로젝트를 사용하는 이유는 `npm audix fix`로 해결되 지않는 취약점때문에 어쩔 수 없이 yarn을 선택했습니다. 
+npx(npm)과 yarn 중 yarn을 통해 프로젝트를 사용하는 이유는 `npm audix fix`로 해결되 지않는 취약점으로 인해 yarn을 선택했습니다. 
 
 > (나중에 npm과 yarn 비교해보기)
+> [npm audit으로 보안취약점을 발견했을 때의 조치](https://lovemewithoutall.github.io/it/npm-audit-fix/)
 > [node_modules로부터 우리를 구원해 줄 Yarn Berry](https://toss.tech/article/node-modules-and-yarn-berry)  
 
 ## 2. ESLint 설정하기
@@ -24,11 +25,13 @@ npx(npm)과 yarn 중 yarn을 통해 프로젝트를 사용하는 이유는 `npm 
 ```
 yarn add --dev eslint-plugin-testing-library
 ```
+Git 주소 : [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)
 
 **install eslint-plugin-jest-dom**
 ```
 yarn add --dev eslint-plugin-jest-dom
 ```
+Git 주소 : [jest-dom](https://github.com/testing-library/jest-dom)
 
 3. 설치한 플러그인을 eslint 설정
 
