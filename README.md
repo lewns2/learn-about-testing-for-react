@@ -19,4 +19,6 @@
 - 단위 테스트, 통합 테스트의 구분과 장단점
 - Cypress를 사용한 컴포넌트 단위의 통합 테스트 작성
 
+### 4. 실전 : APP 개발
+[간단한 타이머 APP 만들기](https://github.com/lewns2/learn-about-testing-for-react/tree/master/timer-test-app)
 
